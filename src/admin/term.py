@@ -3,7 +3,7 @@ from flask_admin.form.upload import ImageUploadField
 
 from src.admin.base import SecureModelView
 from flask_ckeditor import CKEditorField
-from models import Term
+from src.models import Term
 from os import path
 
 class TermView(SecureModelView):
